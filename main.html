@@ -1,16 +1,64 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Semantic Table and Media List</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <h1>Student Details</h1>
 
+  <table>
+    <caption>Student Information</caption>
+    <thead>
+      <tr>
+        <th>Roll number</th>
+        <th>Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>John Doe</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Jane Smith</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Alice Johnson</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>List of Medias</h2>
+  <ol>
+    <li>
+      <figure>
+        <img src="https://picsum.photos/id/123/200/300" alt="Random Image">
+        <figcaption>Image</figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <video controls>
+          <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>Video</figcaption>
+      </figure>
+    </li>
+    <li>
+      <figure>
+        <audio controls>
+          <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+          Your browser does not support the audio tag.
+        </audio>
+        <figcaption>Audio</figcaption>
+      </figure>
+    </li>
+  </ol>
 </body>
 
 </html>
